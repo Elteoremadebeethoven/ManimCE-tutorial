@@ -30,14 +30,20 @@ Shorts:
 
                                    CUSTOM
 =================================================================================
+[Dimensions]
 -r H,W      RENDER WITH CUSTOM
             DIMENSIONS
 
             Example: -r 500,500
 
+[Frame rate]
 --fps <NUMBER>
             Example: --fps 20
 
+[Save as gif]
+--format=gif
+
+[Change file name]
 -o FILE_NAME
 
 CLICK (Not all properties works fine yet)
@@ -60,7 +66,7 @@ RENDER 30 fps at 480p:
 
 # aspect_ratio = 16 / 9
 
-# config.background_color = WHITE
+# config.background_color = RED
 # config.frame_rate = 20
 # config.pixel_height = 800
 # config.pixel_width = int(config.pixel_height * aspect_ratio)
